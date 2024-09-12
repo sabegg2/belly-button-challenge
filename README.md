@@ -17,16 +17,26 @@ The elements of the dashboard are:
 
 (1) A dropdown list of Test Subject ID numbers. This allows different test subjects to be selected. All of the plots and metadata update when a new test subject is selected.
 
+<img src="images/dropdown.png" width=100>
+
 (2) A horizontal bar chart that displays the top 10 bacterial cultures (identified by otu_id) found in the test subject. The length of the bars are the sample values, representative of the amount of the respective culture detected. When the mouse hovers over a bar, more information is given about the bacterial culture (the sample value and the lowest taxonomic level of Bacteria/Archaea found).
+
+<img src="images/bar.png" width=400>
 
 (3) A bubble chart that displays each sample, ordred horizontally and colored by otu_id number. The marker size and vertical position are the sample value, representative of the amount of the respective culture detected. When the mouse hovers over a bubble, more information is given about the bacterial culture (the sample value and the lowest taxonomic level of Bacteria/Archaea found).
 
+<img src="images/bubble.png" width=500>
+
 (4) A box displaying the the individual's demographic information, such as id number, ethnicity, gender, age, location, belly button type (I=innie, O=outie), and washing frequency (belly button scrubs per week). 
+
+<img src="images/demographic.png" width=200>
 
 Here is what the interactive dashboard looks like:
 
-<img src="images/appimage.png" width=800>
+<img src="images/appimage1.png" width=800>
+<img src="images/appimage2.png" width=800>
 
+For fun, I put an image of cute little microbes in the header (this was done by putting a background image in the <div> for the header, using the code style="background-image: url('images/microbes.png');"). I also added a description below the header.
 
 ## Libraries used
 
