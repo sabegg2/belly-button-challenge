@@ -6,7 +6,7 @@ In this assignment, we were asked to build an interactive dashboard to explore t
 
 ## GitHub Pages
 
-I deployed my repository to GitHub Pages. The interactive dashboard I created in this assingment can be displayed and interacted with at the following link:
+I deployed my repository to GitHub Pages. The interactive dashboard I created in this assignment can be displayed and interacted with at the following link:
 
 https://sabegg2.github.io/belly-button-challenge/
 
