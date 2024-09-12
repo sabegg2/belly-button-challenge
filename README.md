@@ -33,10 +33,9 @@ The elements of the dashboard are:
 
 Here is what the interactive dashboard looks like:
 
-<img src="images/appimage1.png" width=800>
-<img src="images/appimage2.png" width=800>
+<img src="images/appimage.png" width=800>
 
-For fun, I put an image of cute little microbes in the header (this was done by putting a background image in the <div> for the header, using the code style="background-image: url('images/microbes.png');"). I also added a description below the header.
+For fun, I put an image of cute little microbes in the header (this was done by putting a background image in the div tag for the header, using style="background-image: url('images/microbes.png');"). I also added a description below the header.
 
 ## Libraries used
 
