@@ -87,6 +87,7 @@ function buildCharts(sample) {
 
     // Render the Bar Chart
     Plotly.newPlot("bar", barData, barLayout);
+
   });
 }
 
