@@ -8,4 +8,6 @@ https://sabegg2.github.io/belly-button-challenge/
 
 # Example output
 
+<img src="images/appimage.png" width=500>
+
 
