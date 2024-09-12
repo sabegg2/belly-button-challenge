@@ -21,7 +21,7 @@ The elements of the dashboard are:
 
 (3) A bubble chart that displays each sample, ordred horizontally and colored ny by otu_id number. The marker size and vertical position are the sample value, representative of the amount of the respective culture detected. When the mouse hovers over a bubble, more information is given about the bacterial culture.
 
-(4) A box displaying the the individual's demographic information, such as id number, ethnicity, gender, age, location, BBTYPE, and WFREQ. 
+(4) A box displaying the the individual's demographic information, such as id number, ethnicity, gender, age, location, belly button type (I=innie, O=outie), and washing frequency (belly button scrubs per week). 
 
 Here is what the interactive dashboard looks like:
 
