@@ -41,13 +41,6 @@ function buildCharts(sample) {
     var sample_values = result.sample_values;
 
     // Build a Bubble Chart
-    var bubbleLayout = {
-      title: "Bacteria Cultures Per Sample",
-      margin: { t: 0 },
-      hovermode: "closest",
-      xaxis: { title: "OTU ID" },
-      margin: { t: 30 }
-    };
     var bubbleData = [
       {
         x: otu_ids,
@@ -61,6 +54,14 @@ function buildCharts(sample) {
         }
       }
     ];
+    
+    var bubbleLayout = {
+      title: "Bacteria Cultures Per Sample",
+      margin: { t: 0 },
+      hovermode: "closest",
+      xaxis: { title: "OTU ID" },
+      margin: { t: 30 }
+    };
 
     // Render the Bubble Chart
     Plotly.newPlot("bubble", bubbleData, bubbleLayout);
