@@ -17,8 +17,8 @@ function buildMetadata(sample) {
 
     // Inside a loop, you will need to use d3 to append new
     // tags for each key-value in the filtered metadata.
-    Object.entries(result).forEach(([key, value]) => {
-      PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
+    Object.entries(result).forEach(([key, value]) => { // iterates over each [key, value] pair of the array returned by Object.entries(result)
+      PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);  // Example: result = { id: 940, ethnicity: "Caucaisan" }; will return: <h6>ID: 940</h6> <h6>ETHNICITY: Caucaisan</h6>
     });
 
   });
