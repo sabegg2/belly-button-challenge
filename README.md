@@ -37,6 +37,16 @@ Here is what the interactive dashboard looks like:
 
 For fun, I put an image of cute little microbes in the header (this was done by putting a background image in the div tag for the header, using style="background-image: url('images/microbes.png');"). I also added a description below the header.
 
+
+## Files
+
+The javascript and html files are:
+
+[app.js](static/js/app.js)
+
+[index.html](index.html)
+
+
 ## Libraries used
 
 I used the D3 library to read in samples.json.
